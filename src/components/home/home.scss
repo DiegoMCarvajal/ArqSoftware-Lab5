@@ -1,0 +1,34 @@
+body {
+  background-color: #303030;
+
+  .search-params {
+    // margin: 0 10em 0 10em;
+
+    .query-wrapper {
+      display: flex;
+      justify-content: center;
+
+      #query {
+        width: 45em;
+        padding: 10px;
+        border: 0;
+        border-radius: 4px;
+        margin: 10px;
+        outline: none;
+      }
+    }
+
+    .movie-wrapper {
+      display: grid;
+      gap: 50px;
+      display: grid;
+      gap: 50px;
+      grid-template-columns: auto auto auto auto auto;
+      padding: 10px;
+
+      .movie-item{
+        cursor: pointer;
+      }
+    }
+  }
+}
